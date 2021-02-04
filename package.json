@@ -1,0 +1,22 @@
+{
+   "name": "PaysimpleAdmin-Backend",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "morgan": "^1.10.0",
+      "mssql": "^4.0.4",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.30"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}

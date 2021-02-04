@@ -1,0 +1,23 @@
+{
+   "type": "mssql",
+   "host": "64.227.107.152",
+   "username": "sa",
+   "password": "Simplify2019ADMIN",
+   "database": "simplify",
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
